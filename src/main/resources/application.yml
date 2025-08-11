@@ -1,0 +1,19 @@
+server:
+  port: 8080
+  servlet:
+    session:
+      timeout: 30
+  tomcat:
+    uri-encoding: UTF-8
+
+
+app:
+  name : springbootTest
+  authority : klay
+
+logging:
+  level:
+    root : INFO
+    org:
+      springframework:
+        web: INFO
